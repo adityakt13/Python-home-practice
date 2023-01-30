@@ -7,4 +7,4 @@ num6 = int(input("Enter 6th number:"))
 num7 = int(input("Enter 7th number:"))
 num8 = int(input("Enter 8th number:"))
 total = {num1,num2,num3,num4,num5,num6,num7,num8}
-print(total)
+print(total) 
