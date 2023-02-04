@@ -9,3 +9,5 @@ elif age >45 and age <57 :
     print("You should plan for your retirement.")
 else:
     print("Happy retirement to you.")
+a = "I love my India"
+print(a[::-2])
