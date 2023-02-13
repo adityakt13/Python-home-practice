@@ -1,5 +1,5 @@
 def percent(marks):
-    return sum(marks)/len(marks) 
+    return sum(marks)/len(marks)
 
 marks1 = [45, 78, 86, 77]
 percentage1 = percent(marks1)
