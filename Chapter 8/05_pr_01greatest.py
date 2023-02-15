@@ -3,3 +3,8 @@ def maximum (num1,num2,num3):
         return(num1)
     elif num2> num1 and num2 >num3:
         return(num2)
+    else:
+        return(num3)
+
+m = maximum(7,89,12)
+print("the maximum number is" , m)
