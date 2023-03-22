@@ -1,2 +1,4 @@
 f = open('sample.txt')
-# read first line
+data = f.readline() # it will read the first line
+print(data)
+f.close()
