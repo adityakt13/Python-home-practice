@@ -1,4 +1,5 @@
 f = open('sample.txt')
 data = f.readline() # it will read the first line
 print(data)
-f.close()
+data = f.readline() # it will read the second line
+print(data)
