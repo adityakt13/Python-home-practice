@@ -1,10 +1,10 @@
 def game ():
-    return 64
+    return 644
 
 score = game()
 with open("highscore.txt") as f:
-    highscore = int(f.read())
+    highscoreStr = f.read()
 
-if highscore < score:
+if int(highscoreStr) < score:
     with open("highscore.txt", "w") as f:
-        f.write(score)
+        f.write(str(score))
